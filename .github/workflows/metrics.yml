@@ -1,0 +1,18 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天UTC时间0点自动运行
+  workflow_dispatch:     # 允许手动触发
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories       # 只展示仓库相关数据
+          plugin_repositories: yes # 开启仓库插件
+          repositories_affiliations: owner, collaborator, organization_member # 抓取所有拥有、参与或是组织成员的项目
+          repositories_skipped: "" # 不跳过任何仓库
