@@ -10,25 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg
+          filename: ./metrics.svg  # 生成在当前目录
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           plugin_repositories: yes
           repositories_affiliations: owner, collaborator, organization_member
-          repositories_skipped: ""
-          output_action: none
-
-      # 安全提交
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add metrics.svg 2>/dev/null || true
-          git commit -m "chore: update metrics [skip ci]" 2>/dev/null || true
-          git push
+          output_action: commit
+          committer_branch: main
