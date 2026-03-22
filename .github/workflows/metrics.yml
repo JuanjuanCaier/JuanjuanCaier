@@ -17,16 +17,17 @@ jobs:
         with:
           filename: ./metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # 开启仓库基础展示
-          base: repositories
-          # 开启仓库插件
-          repositories: yes
-          # 抓取所有自有/协作/组织仓库
+          # 关闭基础统计面板，只保留完整仓库列表
+          base: ""
+          # 开启仓库列表核心插件
+          plugin_repositories: yes
+          # 抓取范围：自有/协作/组织内的所有仓库
           repositories_affiliations: owner,collaborator,organization_member
-          # 不显示Fork的仓库
+          # 不显示fork来的仓库
           repositories_forks: no
           # 不跳过任何仓库
           repositories_skipped: ""
+          # 关闭插件自动提交
           output_action: none
 
       - name: Copy image to repo
