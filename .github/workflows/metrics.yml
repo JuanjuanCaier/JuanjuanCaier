@@ -16,5 +16,5 @@ jobs:
           plugin_repositories: yes
           repositories_affiliations: owner, collaborator, organization_member
           repositories_skipped: ""
-          committer_branch: main                    # 明确指定分支
-          commit_message: "chore: update metrics [skip ci]"  # 避免无限循环
+          committer_branch: main                    # 指定分支
+          committer_message: "chore: update metrics [skip ci]"  # 正确参数名
