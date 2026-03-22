@@ -17,20 +17,31 @@ jobs:
         with:
           filename: ./metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
+          base: ""
           plugin_repositories: yes
-          repositories_affiliations: owner, collaborator, organization_member
-          output_action: none  # 关闭插件自动提交
+          # 抓取所有自有/协作/组织仓库
+          repositories_affiliations: owner,collaborator,organization_member
+          # 列出所有仓库，每个带跳转链接
+          repositories_list: all
+          # 最多展示100个仓库
+          repositories_limit: 100
+          # 按最近更新时间排序
+          repositories_sort: updated
+          # 显示仓库描述
+          repositories_description: yes
+          # 显示Star数
+          repositories_stars: yes
+          # 不显示Fork的仓库
+          repositories_forks: no
+          output_action: none
 
-      # 把生成的图片从临时目录复制到当前目录
       - name: Copy image to repo
         run: cp /metrics_renders/metrics.svg ./metrics.svg
 
-      # 提交图片
-      - name: Commit and push
+      - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add metrics.svg
-          git commit -m "Update metrics" || true
+          git commit -m "chore: update metrics" || true
           git push
