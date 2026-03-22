@@ -17,22 +17,16 @@ jobs:
         with:
           filename: ./metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_repositories: yes
+          # 开启仓库基础展示
+          base: repositories
+          # 开启仓库插件
+          repositories: yes
           # 抓取所有自有/协作/组织仓库
           repositories_affiliations: owner,collaborator,organization_member
-          # 列出所有仓库，每个带跳转链接
-          repositories_list: all
-          # 最多展示100个仓库
-          repositories_limit: 100
-          # 按最近更新时间排序
-          repositories_sort: updated
-          # 显示仓库描述
-          repositories_description: yes
-          # 显示Star数
-          repositories_stars: yes
           # 不显示Fork的仓库
           repositories_forks: no
+          # 不跳过任何仓库
+          repositories_skipped: ""
           output_action: none
 
       - name: Copy image to repo
