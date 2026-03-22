@@ -1,42 +1,88 @@
-name: Metrics
+name: Update Repo List
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  github-metrics:
+  update-repos:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
+      - name: Fetch all repositories and generate list
+        uses: actions/github-script@v7
         with:
-          filename: ./metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          # 关闭基础统计面板，只保留完整仓库列表
-          base: ""
-          # 开启仓库列表核心插件
-          plugin_repositories: yes
-          # 抓取范围：自有/协作/组织内的所有仓库
-          repositories_affiliations: owner,collaborator,organization_member
-          # 不显示fork来的仓库
-          repositories_forks: no
-          # 不跳过任何仓库
-          repositories_skipped: ""
-          # 关闭插件自动提交
-          output_action: none
+          github-token: ${{ secrets.METRICS_TOKEN }}
+          script: |
+            const fs = require('fs');
+            
+            // 获取所有仓库（分页拉取，避免遗漏）
+            let allRepos = [];
+            let page = 1;
+            let perPage = 100;
+            
+            while (true) {
+              const repos = await github.rest.repos.listForAuthenticatedUser({
+                visibility: 'all',
+                affiliation: 'owner,collaborator,organization_member',
+                per_page: perPage,
+                page: page
+              });
+              
+              if (repos.data.length === 0) break;
+              
+              // 过滤掉 Fork 的仓库
+              const nonForks = repos.data.filter(repo => !repo.fork);
+              allRepos = allRepos.concat(nonForks);
+              
+              if (repos.data.length < perPage) break;
+              page++;
+            }
 
-      - name: Copy image to repo
-        run: cp /metrics_renders/metrics.svg ./metrics.svg
+            // 按最近更新时间排序
+            allRepos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+
+            // 生成 Markdown 内容
+            let markdown = `## 📦 我参与的所有项目\n\n`;
+            markdown += `| 仓库 | 描述 | Stars | 更新时间 |\n`;
+            markdown += `|------|------|-------|----------|\n`;
+            
+            allRepos.forEach(repo => {
+              const updatedAt = new Date(repo.updated_at).toLocaleDateString('zh-CN');
+              const description = repo.description || '暂无描述';
+              markdown += `| [${repo.full_name}](${repo.html_url}) | ${description} | ⭐ ${repo.stargazers_count} | ${updatedAt} |\n`;
+            });
+
+            // 读取现有 README
+            let readme = fs.readFileSync('README.md', 'utf8');
+            
+            // 替换特定标记之间的内容（你需要在 README 里加 <!-- AUTO_REPO_LIST_START --> 和 <!-- AUTO_REPO_LIST_END -->）
+            const startMarker = '<!-- AUTO_REPO_LIST_START -->';
+            const endMarker = '<!-- AUTO_REPO_LIST_END -->';
+            
+            const startIndex = readme.indexOf(startMarker);
+            const endIndex = readme.indexOf(endMarker);
+            
+            if (startIndex !== -1 && endIndex !== -1) {
+              const newReadme = readme.substring(0, startIndex + startMarker.length) + 
+                                '\n\n' + markdown + '\n' + 
+                                readme.substring(endIndex);
+              fs.writeFileSync('README.md', newReadme);
+              console.log('README updated successfully!');
+            } else {
+              console.log('Markers not found in README. Please add them.');
+              // 如果没找到标记，就把生成的内容打出来给你看
+              console.log('\nGenerated content:\n');
+              console.log(markdown);
+            }
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add metrics.svg
-          git commit -m "chore: update metrics" || true
+          git add README.md
+          git commit -m "chore: update repository list" || true
           git push
