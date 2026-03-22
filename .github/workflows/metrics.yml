@@ -16,3 +16,6 @@ jobs:
           plugin_repositories: yes # 开启仓库插件
           repositories_affiliations: owner, collaborator, organization_member # 抓取所有拥有、参与或是组织成员的项目
           repositories_skipped: "" # 不跳过任何仓库
+          committer_branch: main          # 明确指定主分支名称
+          commit_message: "chore: update metrics [skip ci]"
+          output_action: commit
