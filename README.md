@@ -1,3 +1,4 @@
 ## 📦 我参与的所有项目
 
-![My Projects](metrics.svg)
+<!-- AUTO_REPO_LIST_START -->
+<!-- AUTO_REPO_LIST_END -->
