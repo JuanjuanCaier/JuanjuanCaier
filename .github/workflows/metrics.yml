@@ -8,6 +8,12 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
+      - name: Test token permissions
+        run: |
+          curl -X PUT -H "Authorization: token ${{ secrets.METRICS_TOKEN }}" \
+               -H "Content-Type: application/json" \
+               -d '{"message":"test","content":"dGVzdA=="}' \
+               https://api.github.com/repos/JuanjuanCaier/JuanjuanCaier/contents/test.txt
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
