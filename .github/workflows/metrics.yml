@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
@@ -21,12 +22,13 @@ jobs:
           plugin_repositories: yes
           repositories_affiliations: owner, collaborator, organization_member
           repositories_skipped: ""
-          output_action: none  # 关闭自动提交
-          
-      - name: Commit changes
+          output_action: none
+
+      # 安全提交
+      - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add metrics.svg || true
-          git commit -m "chore: update metrics [skip ci]" || true
+          git add metrics.svg 2>/dev/null || true
+          git commit -m "chore: update metrics [skip ci]" 2>/dev/null || true
           git push
