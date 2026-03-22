@@ -1,21 +1,34 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天UTC时间0点自动运行
-  workflow_dispatch:     # 允许手动触发
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories       # 只展示仓库相关数据
-          plugin_repositories: yes # 开启仓库插件
-          repositories_affiliations: owner, collaborator, organization_member # 抓取所有拥有、参与或是组织成员的项目
-          repositories_skipped: "" # 不跳过任何仓库
-          committer_branch: main          # 明确指定主分支名称
-          commit_message: "chore: update metrics [skip ci]"
-          output_action: commit
+          base: repositories
+          plugin_repositories: yes
+          repositories_affiliations: owner, collaborator, organization_member
+          repositories_skipped: ""
+          committer_branch: main
+          output_action: none  # 关闭插件自动提交
+
+      # 手动提交
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add metrics.svg
+          git commit -m "chore: update metrics [skip ci]" || exit 0
+          git push
