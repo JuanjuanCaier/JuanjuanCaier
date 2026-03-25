@@ -6,9 +6,9 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/3/23 |
+| [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/3/24 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/3/24 |
 | [JuanjuanCaier/BF1DriverTools](https://github.com/JuanjuanCaier/BF1DriverTools) | a tool to manager your server | ⭐ 2 | 2026/3/23 |
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/3/22 |
 | [shen2dou/Evolevation](https://github.com/shen2dou/Evolevation) | 蜕升 | ⭐ 1 | 2026/2/24 |
 | [JustMon1ka/EchoMark](https://github.com/JustMon1ka/EchoMark) | 暂无描述 | ⭐ 3 | 2026/2/20 |
 | [JuanjuanCaier/For-Personal-Use-VM-Protect-Installation-Package](https://github.com/JuanjuanCaier/For-Personal-Use-VM-Protect-Installation-Package) | [自用]VMProtect软件的"安装包" | ⭐ 1 | 2026/1/21 |
