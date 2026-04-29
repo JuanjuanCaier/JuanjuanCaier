@@ -6,9 +6,9 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
+| [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/4/28 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/4/28 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/4/27 |
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/4/27 |
-| [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/4/26 |
 | [CJS0508/SoftWareTest-TJ-2026-Spring](https://github.com/CJS0508/SoftWareTest-TJ-2026-Spring) | 暂无描述 | ⭐ 1 | 2026/4/20 |
 | [JustMon1ka/EchoMark](https://github.com/JustMon1ka/EchoMark) | 暂无描述 | ⭐ 4 | 2026/4/19 |
 | [JuanjuanCaier/Cpp-Learning](https://github.com/JuanjuanCaier/Cpp-Learning) | 为了深入学习C++建立的仓库，存储一些知识点对应的代码 | ⭐ 1 | 2026/4/6 |
