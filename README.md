@@ -6,8 +6,8 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/5/2 |
-| [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/4/30 |
+| [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/5/3 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/5/3 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/4/29 |
 | [CJS0508/SoftWareTest-TJ-2026-Spring](https://github.com/CJS0508/SoftWareTest-TJ-2026-Spring) | 暂无描述 | ⭐ 1 | 2026/4/20 |
 | [JustMon1ka/EchoMark](https://github.com/JustMon1ka/EchoMark) | 暂无描述 | ⭐ 4 | 2026/4/19 |
