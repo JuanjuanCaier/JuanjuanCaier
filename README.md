@@ -6,8 +6,9 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/5/14 |
-| [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/5/12 |
+| [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/5/15 |
+| [ClearP0ol/Compiler_Compiler_Construction](https://github.com/ClearP0ol/Compiler_Compiler_Construction) | 同济大学编译原理课程项目(The Compiler Principles Course Project of Tongji University) | ⭐ 3 | 2026/5/15 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/5/15 |
 | [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/5/3 |
 | [CJS0508/SoftWareTest-TJ-2026-Spring](https://github.com/CJS0508/SoftWareTest-TJ-2026-Spring) | 暂无描述 | ⭐ 1 | 2026/4/20 |
 | [JustMon1ka/EchoMark](https://github.com/JustMon1ka/EchoMark) | 暂无描述 | ⭐ 4 | 2026/4/19 |
@@ -16,7 +17,6 @@
 | [shen2dou/Evolevation](https://github.com/shen2dou/Evolevation) | 蜕升 | ⭐ 1 | 2026/2/24 |
 | [JuanjuanCaier/For-Personal-Use-VM-Protect-Installation-Package](https://github.com/JuanjuanCaier/For-Personal-Use-VM-Protect-Installation-Package) | [自用]VMProtect软件的"安装包" | ⭐ 1 | 2026/1/21 |
 | [JuanjuanCaier/Embedded-Operating-System-Course-Assignment-for-Tongji-University-in-2025](https://github.com/JuanjuanCaier/Embedded-Operating-System-Course-Assignment-for-Tongji-University-in-2025) | 同济大学2025年嵌入式操作系统课程作业 | ⭐ 1 | 2026/1/9 |
-| [ClearP0ol/Compiler_Compiler_Construction](https://github.com/ClearP0ol/Compiler_Compiler_Construction) | 同济大学编译原理课程项目(The Compiler Principles Course Project of Tongji University) | ⭐ 2 | 2026/1/2 |
 | [ReisenCW/tongji-blockchain](https://github.com/ReisenCW/tongji-blockchain) | 同济大学区块链专选调研报告+期末项目 | ⭐ 2 | 2026/1/1 |
 | [JuanjuanCaier/A-Scheme-of-Using-Handle-Hijacking-to-Bypass-Anti-Cheating-in-UC-Forum](https://github.com/JuanjuanCaier/A-Scheme-of-Using-Handle-Hijacking-to-Bypass-Anti-Cheating-in-UC-Forum) | From Harakirinox, if you don't want it to appear here, please contact me! | ⭐ 2 | 2025/12/30 |
 | [JuanjuanCaier/A-Cpp-Implemented-Syntax-Analyzer](https://github.com/JuanjuanCaier/A-Cpp-Implemented-Syntax-Analyzer) | 一个cpp实现的语法分析器，从启动项参数接受语法规则文件和词法分析器输出的Tokens流文件。 | ⭐ 1 | 2025/12/30 |
