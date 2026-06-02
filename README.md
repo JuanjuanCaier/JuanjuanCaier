@@ -6,7 +6,7 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/5/31 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/1 |
 | [CJS0508/SoftWareTest-TJ-2026-Spring](https://github.com/CJS0508/SoftWareTest-TJ-2026-Spring) | 暂无描述 | ⭐ 1 | 2026/5/24 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/5/15 |
 | [ClearP0ol/Compiler_Compiler_Construction](https://github.com/ClearP0ol/Compiler_Compiler_Construction) | 同济大学编译原理课程项目(The Compiler Principles Course Project of Tongji University) | ⭐ 3 | 2026/5/15 |
