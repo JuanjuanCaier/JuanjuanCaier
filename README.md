@@ -6,7 +6,8 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/1 |
+| [JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025](https://github.com/JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025) | 同济大学2025年物联网应用基础课程 | ⭐ 1 | 2026/6/2 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/2 |
 | [CJS0508/SoftWareTest-TJ-2026-Spring](https://github.com/CJS0508/SoftWareTest-TJ-2026-Spring) | 暂无描述 | ⭐ 1 | 2026/5/24 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/5/15 |
 | [ClearP0ol/Compiler_Compiler_Construction](https://github.com/ClearP0ol/Compiler_Compiler_Construction) | 同济大学编译原理课程项目(The Compiler Principles Course Project of Tongji University) | ⭐ 3 | 2026/5/15 |
@@ -20,7 +21,6 @@
 | [ReisenCW/tongji-blockchain](https://github.com/ReisenCW/tongji-blockchain) | 同济大学区块链专选调研报告+期末项目 | ⭐ 2 | 2026/1/1 |
 | [JuanjuanCaier/A-Scheme-of-Using-Handle-Hijacking-to-Bypass-Anti-Cheating-in-UC-Forum](https://github.com/JuanjuanCaier/A-Scheme-of-Using-Handle-Hijacking-to-Bypass-Anti-Cheating-in-UC-Forum) | From Harakirinox, if you don't want it to appear here, please contact me! | ⭐ 2 | 2025/12/30 |
 | [JuanjuanCaier/A-Cpp-Implemented-Syntax-Analyzer](https://github.com/JuanjuanCaier/A-Cpp-Implemented-Syntax-Analyzer) | 一个cpp实现的语法分析器，从启动项参数接受语法规则文件和词法分析器输出的Tokens流文件。 | ⭐ 1 | 2025/12/30 |
-| [JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025](https://github.com/JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025) | 同济大学2025年物联网应用基础课程 | ⭐ 1 | 2025/12/28 |
 | [kirito6518/Stardew-Valley](https://github.com/kirito6518/Stardew-Valley) | 程序设计范式2024年期末设计项目 星露谷物语 | ⭐ 4 | 2025/12/23 |
 | [JuanjuanCaier/Tongji-University-2025-Software-Design-Pattern-Course-Project](https://github.com/JuanjuanCaier/Tongji-University-2025-Software-Design-Pattern-Course-Project) | 同济大学2025年软件设计模式课程项目 | ⭐ 1 | 2025/12/13 |
 | [JuanjuanCaier/Shua-Duan](https://github.com/JuanjuanCaier/Shua-Duan) | 刷段破解 | ⭐ 1 | 2025/12/3 |
