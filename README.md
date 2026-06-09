@@ -6,8 +6,8 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/8 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/6/7 |
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/7 |
 | [JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025](https://github.com/JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025) | 同济大学2025年物联网应用基础课程 | ⭐ 1 | 2026/6/2 |
 | [CJS0508/SoftWareTest-TJ-2026-Spring](https://github.com/CJS0508/SoftWareTest-TJ-2026-Spring) | 暂无描述 | ⭐ 1 | 2026/5/24 |
 | [ClearP0ol/Compiler_Compiler_Construction](https://github.com/ClearP0ol/Compiler_Compiler_Construction) | 同济大学编译原理课程项目(The Compiler Principles Course Project of Tongji University) | ⭐ 3 | 2026/5/15 |
