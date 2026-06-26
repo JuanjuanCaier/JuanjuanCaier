@@ -6,7 +6,7 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/24 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/6/25 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/6/12 |
 | [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/6/10 |
 | [JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025](https://github.com/JuanjuanCaier/Tongji-University-s-Fundamentals-of-IoT-Applications-in-2025) | 同济大学2025年物联网应用基础课程 | ⭐ 1 | 2026/6/2 |
