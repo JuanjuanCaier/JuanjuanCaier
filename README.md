@@ -6,7 +6,7 @@
 
 | 仓库 | 描述 | Stars | 更新时间 |
 |------|------|-------|----------|
-| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/9/4 |
+| [JuanjuanCaier/JuanjuanCaier](https://github.com/JuanjuanCaier/JuanjuanCaier) | Config files for my GitHub profile. | ⭐ 1 | 2026/9/5 |
 | [JuanjuanCaier/Cpp-Learning](https://github.com/JuanjuanCaier/Cpp-Learning) | 为了深入学习C++建立的仓库，存储一些知识点对应的代码 | ⭐ 1 | 2026/8/23 |
 | [ReisenCW/Software-Management](https://github.com/ReisenCW/Software-Management) | 软管 | ⭐ 1 | 2026/6/12 |
 | [gfjdh/emb-agent](https://github.com/gfjdh/emb-agent) | 嵌入式系统程序优化智能体 (Embedded System Program Optimization Agent) - 一款基于大语言模型 (LLM) 的嵌入式开发智能助手。 | ⭐ 1 | 2026/6/10 |
@@ -30,7 +30,5 @@
 | [JuanjuanCaier/Course-Named-Operating-System-Design-and-Implementation-of-Jiang-Yanyan-at-Nanjing-University](https://github.com/JuanjuanCaier/Course-Named-Operating-System-Design-and-Implementation-of-Jiang-Yanyan-at-Nanjing-University) | 南京大学蒋炎岩老师的操作系统：设计与实现课程的实验源码。 | ⭐ 1 | 2025/7/22 |
 | [JuanjuanCaier/Homework-for-Data-Structures-Course-in-Software-Engineering-at-Tongji-University](https://github.com/JuanjuanCaier/Homework-for-Data-Structures-Course-in-Software-Engineering-at-Tongji-University) | 同济大学软件工程专业数据结构课程作业2024 | ⭐ 1 | 2025/7/11 |
 | [JuanjuanCaier/Windows-11-genuine-activation-software-for-personal-use](https://github.com/JuanjuanCaier/Windows-11-genuine-activation-software-for-personal-use) | [自用]激活windows，便于使用专业版等版本。 | ⭐ 1 | 2025/7/8 |
-| [CrazyZhang666/BF1ServerTools_Backup](https://github.com/CrazyZhang666/BF1ServerTools_Backup) | 战地1服务器管理工具 | ⭐ 1 | 2025/5/24 |
-| [CrazyZhang666/BF1ClientAPI_Backup](https://github.com/CrazyZhang666/BF1ClientAPI_Backup) | 战地1客户端API（闭源） | ⭐ 4 | 2025/5/24 |
 
 <!-- AUTO_REPO_LIST_END -->
